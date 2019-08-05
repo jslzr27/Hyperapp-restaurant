@@ -1,0 +1,60 @@
+#ourStory{
+    padding: 100px 0;
+
+    // h5{
+    //     color: grey;
+    //     font-size: 1.1rem;
+    //     margin: 0.5rem 0 1rem;
+    //     text-transform: uppercase;
+    // }
+
+    h2{
+        font-family: $displayFont;
+        text-transform: capitalize;
+        font-size: 3rem;
+        margin: 0.5rem 0 3rem;
+    }
+
+    p{
+        font-size: 1.1rem;
+        color: grey;
+        line-height: 1.8;
+        margin: 0.5rem 0 3rem;
+    }
+
+    .quote {
+        color: grey;
+        margin-bottom: 3rem;
+
+        strong{
+            font-weight: 700;
+        }
+    }
+
+    .reserve-btn{
+        font-family: $displayFont;
+        display: inline-block;
+        border: 1px solid black;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        padding: 20px 40px;
+        transition: all 0.5s ease-in-out;
+
+        &:hover{
+            background: orange;
+            color: black;
+        }
+    }
+
+    .video-img{
+        max-width: 400px;
+        height: 550px;
+        background: linear-gradient(135deg,rgba(0,0,0,.2) 0,#000000 100%);
+        background-image: linear-gradient(135deg,rgba(0,0,0,.2) 0,#000000 100%),url("https://images.pexels.com/photos/1327215/pexels-photo-1327215.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+}
